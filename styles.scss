@@ -37,7 +37,7 @@ a {
   transition-timing-function: cubic-bezier(0.935, 0.000, 0.340, 1.330);
   transition-duration: $interval;
 }
-a:hover {
+a:hover, a:focus {
   background: linear-gradient(to bottom, #ff4141, #b30000);
 }
 label {
