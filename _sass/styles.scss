@@ -28,6 +28,7 @@ a, label {
   margin-left: -50px;
   padding: 14px;
   outline: none;
+  box-sizing: border-box;
 }
 a {
   transition-property: transform;
