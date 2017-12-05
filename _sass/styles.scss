@@ -109,9 +109,3 @@ $tick: 6;
   transform: translate($radius*$sin45+$shift-x, $radius*$sin45);
   transition-delay: $start-delay + $interval*$tick;
 }
-
-@media (max-width: 425px) {
-  main {
-    zoom: .7;
-  }
-}
